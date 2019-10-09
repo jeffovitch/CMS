@@ -1,0 +1,190 @@
+/* 
+Theme Name: Portfolio
+Author: Jeff Rønn Pedersen
+*/
+
+
+body {
+    margin: auto;    
+}
+
+header {
+    display: grid;
+    height: 25vh;
+    background-image: url(http://localhost/portfolio/wp-content/uploads/2019/10/baggrund.jpg)
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 6vh;
+}
+
+.undertitel {
+    text-align: center;
+    margin-top: -8vh;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.general {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about {
+
+}
+
+.billede {
+    height: 30vh;
+    float: left;
+    margin-right: 10px;
+}
+
+.billede2 {
+    height: 25vh;
+    float: right;
+    margin-left: 10px;
+}
+
+.somepics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 15px;
+    }
+
+.somelogo {
+    height: 20vh;
+    margin: auto;
+}
+
+.skills { 
+    background-color:#f0f0f0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.CC {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 80%;
+}
+
+.adobe {
+    height: 5vh;
+    margin: auto;
+}
+
+.realskill {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center
+}
+
+.right {
+    margin-left: 10px;
+    background-color: #d8d8d8;
+}
+
+.left {
+    margin-right: 10px;
+}
+
+
+
+.skillpic1 {
+    display: grid;
+    height: 15vh;
+    margin: auto;
+    border-style: solid;
+    border-color: orange;
+}
+
+.skillpic2 {
+    display: grid;
+    height: 15vh;
+    margin: auto;
+    border-style: solid;
+    border-color: #008527;
+}
+
+.skillpic3 {
+    display: grid;
+    height: 15vh;
+    margin: auto;
+    border-style: solid;
+    border-color: #ef2b28;
+}
+
+.skillpic4 {
+    display: grid;
+    height: 15vh;
+    margin: auto;
+    border-style: solid;
+    border-color: #30267e;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    background-image: url(http://localhost/portfolio/wp-content/uploads/2019/10/baggrund.jpg)
+
+    
+}
+
+.footerinfo {
+    margin: auto;
+}
+    
+@media screen and (max-width: 1000px) {
+    
+    .CC {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100%;
+    }
+
+    .adobe {
+        margin-bottom: 10px;
+    }
+
+    .realskill {
+        grid-template-columns: 1fr;
+   }
+
+   .right {
+       margin: 0;
+   }
+
+   .left {
+        margin: 0;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    main {
+     grid-template-columns: 1fr
+   }
+
+   
+}
